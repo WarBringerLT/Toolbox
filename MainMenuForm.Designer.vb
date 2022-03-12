@@ -47,7 +47,7 @@ Partial Class Form1
         Me.Button_FileHiderMenu.Name = "Button_FileHiderMenu"
         Me.Button_FileHiderMenu.Size = New System.Drawing.Size(308, 49)
         Me.Button_FileHiderMenu.TabIndex = 0
-        Me.Button_FileHiderMenu.Text = "File Hider (Embed Data Stream)"
+        Me.Button_FileHiderMenu.Text = "File Hider (Alternate Data Stream)"
         Me.ToolTip_Manager.SetToolTip(Me.Button_FileHiderMenu, resources.GetString("Button_FileHiderMenu.ToolTip"))
         Me.Button_FileHiderMenu.UseVisualStyleBackColor = False
         '
