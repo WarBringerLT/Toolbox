@@ -1,5 +1,5 @@
 # Toolbox
-#########################################################################################
+#######################################################################################
 Several tools bundled together. Includes File Pumper, File Hiding via ADS (Alternate
 Data Stream) manipulation. 
 DESCRIPTIONS:
@@ -20,4 +20,4 @@ Made Using Visual Studio 2022 - NET 6.0 (LTS)
 REQUIRES .NET to be installed.
 ALL SOURCE FILES WILL BE UPDATED HERE
 There's already pre-compiled executable ready at /Releases/ Dir
-#########################################################################################
+#######################################################################################
