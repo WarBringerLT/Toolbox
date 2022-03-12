@@ -2,8 +2,10 @@
 #######################################################################################
 
 Several tools bundled together. Includes File Pumper, File Hiding via ADS (Alternate
-Data Stream) manipulation. 
+Data Stream) manipulation.
+ 
 DESCRIPTIONS:
+
 File Hiding - Hide A (Any) File Within Another (Any) Other File using Alternate Data Stream
 (ADS) Utility within NTFS. Only works in NTFS - FAT, FAT32, etc. ARE NOT SUPPORTED. 
 This Tool Expoilts ADS to insert and extract a file in to another fully working file.
