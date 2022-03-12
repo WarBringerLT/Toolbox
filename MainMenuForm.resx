@@ -1,0 +1,125 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ToolTip_Manager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="Button_FileHiderMenu.ToolTip" xml:space="preserve">
+    <value>Hide A (Any) File Within Another (Any) Other File using Alternate Data Stream (ADS) Utility within NTFS. 
+Only works in NTFS - FAT, FAT32, etc. ARE NOT SUPPORTED. 
+This Tool Expoilts ADS to insert and extract a file in to another fully working file.
+</value>
+  </data>
+  <metadata name="Timer_Rainbow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAIBUAAAEAIAD8CgAAFgAAACgAAAAgAAAAKgAAAAEAIAAAAAAAgAoAAMMOAADDDgAAAAAAAAAA
+        AABYWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9XV1f/WVlZ/19fX/9WVlb/QUFB/zs7
+        O/9ZWVn/WVlZ/zs7O/9CQkL/V1dX/19fX/9ZWVn/V1dX/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/V1dX/11dXf9TU1P/LS0t/w4O
+        Dv8AAAD/EBAQ/1paWv9aWlr/EBAQ/wAAAP8PDw//Ly8v/1RUVP9dXV3/V1dX/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1dXV/9eXl7/Pz8//woK
+        Cv8AAAD/AAAA/wAAAP8UFBT/Wlpa/1paWv8UFBT/AAAA/wAAAP8AAAD/CwsL/0JCQv9eXl7/V1dX/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9XV1f/Xl5e/zc3
+        N/8AAAD/AAAA/wEBAf8CAgL/AAAA/xMTE/9aWlr/Wlpa/xMTE/8AAAD/AgIC/wICAv8AAAD/AAAA/zo6
+        Ov9eXl7/V1dX/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/V1dX/11d
+        Xf9CQkL/AAAA/wEBAf8BAQH/AAAA/wEBAf8BAQH/ExMT/1paWv9aWlr/ExMT/wEBAf8BAQH/AAAA/wEB
+        Af8AAAD/AQEB/0RERP9cXFz/V1dX/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9ZWVn/VlZW/woKCv8AAAD/AQEB/wAAAP8AAAD/AgIC/wAAAP8RERH/Wlpa/1paWv8RERH/AAAA/wEB
+        Af8AAAD/AAAA/wEBAf8AAAD/DQ0N/1dXV/9ZWVn/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/V1dX/15eXv8xMTH/AAAA/wEBAf8AAAD/AAAA/wEBAf8AAAD/Hx8f/0lJSf9ZWVn/WVlZ/0pK
+        Sv8hISH/AAAA/wEBAf8AAAD/AAAA/wEBAf8AAAD/NDQ0/15eXv9XV1f/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/WVlZ/w8PD/8AAAD/AQEB/wAAAP8BAQH/AAAA/y0tLf9fX1//W1tb/1hY
+        WP9YWFj/W1tb/2BgYP8vLy//AAAA/wEBAf8AAAD/AQEB/wAAAP8SEhL/Wlpa/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/V1dX/1tbW/9LS0v/AQEB/wAAAP8AAAD/AQEB/wAAAP8WFhb/XV1d/1dX
+        V/9XV1f/WFhY/1hYWP9XV1f/V1dX/15eXv8ZGRn/AAAA/wEBAf8AAAD/AAAA/wICAv9NTU3/W1tb/1dX
+        V/9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9XV1f/XV1d/z4+Pv8AAAD/AQEB/wAAAP8BAQH/AAAA/zk5
+        Of9eXl7/V1dX/1hYWP9YWFj/WFhY/1hYWP9XV1f/XV1d/zw8PP8BAQH/AQEB/wAAAP8BAQH/AAAA/0FB
+        Qf9dXV3/V1dX/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1dXV/9eXl7/OTk5/wAAAP8BAQH/AAAA/wEB
+        Af8BAQH/RUVF/1xcXP9XV1f/WFhY/1hYWP9YWFj/WFhY/1dXV/9cXFz/RUVF/wAAAP8BAQH/AAAA/wEB
+        Af8AAAD/PDw8/11dXf9XV1f/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/V1dX/11dXf88PDz/AAAA/wEB
+        Af8BAQH/AAAA/wAAAP9AQED/XV1d/1dXV/9YWFj/WFhY/1hYWP9YWFj/WFhY/1lZWf9PT0//EBAQ/wAA
+        AP8AAAD/AgIC/wAAAP8/Pz//XV1d/1dXV/9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9XV1f/XFxc/0ZG
+        Rv8BAQH/AAAA/wAAAP8LCwv/Nzc3/1VVVf9YWFj/V1dX/1hYWP9YWFj/WFhY/1hYWP9XV1f/Wlpa/1tb
+        W/9WVlb/MjIy/wcHB/8AAAD/AAAA/0lJSf9bW1v/V1dX/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9ZWVn/VlZW/wUFBf8DAwP/LS0t/1RUVP9eXl7/XV1d/1lZWf9cXFz/WFhY/1dXV/9XV1f/V1dX/15e
+        Xv9OTk7/U1NT/19fX/9eXl7/UVFR/yIiIv8NDQ3/VlZW/1lZWf9YWFj/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/1dXV/9bW1v/OTk5/0lJSf9eXl7/XV1d/1paWv84ODj/FBQU/zs7O/9bW1v/Xl5e/15e
+        Xv9bW1v/Pz8//wcHB/8NDQ3/PT09/1paWv9eXl7/XFxc/1BQUP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9cXFz/XFxc/11dXf9ERET/FhYW/wAAAP8AAAD/AAAA/xER
+        Ef8jIyP/IyMj/xISEv8AAAD/AAAA/wAAAP8AAAD/GRkZ/0hISP9YWFj/WVlZ/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9TU1P/Hh4e/wAAAP8AAAD/AQEB/wEB
+        Af8BAQH/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/AQEB/wEBAf8AAAD/AAAA/0NDQ/9bW1v/V1dX/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP8aGhr/AAAA/wIC
+        Av8BAQH/AAAA/wAAAP8BAQH/AQEB/wEBAf8BAQH/AAAA/wAAAP8BAQH/AQEB/wAAAP8jIyP/WVlZ/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WVlZ/1xc
+        XP8nJyf/AAAA/wAAAP8AAAD/AQEB/wEBAf8AAAD/AAAA/wEBAf8BAQH/AAAA/wAAAP8AAAD/KSkp/1xc
+        XP9ZWVn/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/11dXf9AQED/FBQU/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/FRUV/0FB
+        Qf9dXV3/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hY
+        WP9YWFj/WFhY/1hYWP9YWFj/V1dX/11dXf9aWlr/QUFB/ycnJ/8VFRX/DQ0N/w0NDf8VFRX/KCgo/0JC
+        Qv9aWlr/XV1d/1dXV/9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP9YWFj/WFhY/1hYWP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
