@@ -8,7 +8,7 @@ DESCRIPTIONS:
 
 File Hiding - Hide A (Any) File Within Another (Any) Other File using Alternate Data Stream
 (ADS) Utility within NTFS. Only works in NTFS - FAT, FAT32, etc. ARE NOT SUPPORTED. 
-This Tool Expoilts ADS to insert and extract a file in to another fully working file.
+This Tool Exploits ADS to insert and extract a file in to another fully working file.
 
 File Pumper - Adds extra Size on File, filled with NULL bytes, It doesn't affect any app, 
 just adds a lot of blank space so the file appears to be larger in size.
