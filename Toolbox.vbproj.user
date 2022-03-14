@@ -13,5 +13,8 @@
     <Compile Update="MemoryExecution.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="WindowsSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
