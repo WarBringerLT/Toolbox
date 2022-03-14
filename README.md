@@ -18,7 +18,7 @@ that would be otherwise restricted or blocked. Useful for running hidden or rest
 
 Windows Advanced Settings - Quick Toggles For In-accessible or hard-to-find settings. 
 
-*** MEMORY EXECUTION AT THE MOMENT (2.01A) Is Broken - NOT WORKING ***
+*** MEMORY EXECUTION AT THE MOMENT (2.10) Is Broken - NOT WORKING ***
 
 Made Using Visual Studio 2022 - NET 6.0 (LTS)
 
