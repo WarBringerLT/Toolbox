@@ -32,5 +32,5 @@ regarding the stability of the app - it all (should) work as intended)
 REQUIRES .NET to be installed.
 ALL SOURCE FILES WILL BE UPDATED HERE
 There's already pre-compiled executable ready at /Releases/ Dir
-
+CURRENT VERSION: 2.10 [PUBLIC] - 14/03/2022
 #######################################################################################
