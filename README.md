@@ -26,9 +26,11 @@ The Pre-Compiled .exe (should) start normally on all Windows Distributions, if t
 error, please double check you have .NET Installed or Repaired 
 (I Triple-Check my Public Releases so that there should be minimal issues 
 regarding the stability of the app - it all (should) work as intended)
+
 #######################################################################################
 
 REQUIRES .NET to be installed.
 ALL SOURCE FILES WILL BE UPDATED HERE
 There's already pre-compiled executable ready at /Releases/ Dir
+
 #######################################################################################
