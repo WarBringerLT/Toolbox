@@ -112,6 +112,7 @@ Partial Class WindowsSettings
         'Button_GoBack
         '
         Me.Button_GoBack.BackColor = System.Drawing.Color.Black
+        Me.Button_GoBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_GoBack.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button_GoBack.ForeColor = System.Drawing.Color.Red
         Me.Button_GoBack.Location = New System.Drawing.Point(247, 416)

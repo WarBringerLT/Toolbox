@@ -32,6 +32,7 @@ Partial Class MemoryExecution
         'Button_Browse
         '
         Me.Button_Browse.BackColor = System.Drawing.Color.Black
+        Me.Button_Browse.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_Browse.ForeColor = System.Drawing.Color.Orange
         Me.Button_Browse.Location = New System.Drawing.Point(409, 5)
         Me.Button_Browse.Name = "Button_Browse"
@@ -55,6 +56,7 @@ Partial Class MemoryExecution
         'Button_Execute
         '
         Me.Button_Execute.BackColor = System.Drawing.Color.Black
+        Me.Button_Execute.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_Execute.Font = New System.Drawing.Font("Segoe Print", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button_Execute.ForeColor = System.Drawing.Color.Orange
         Me.Button_Execute.Location = New System.Drawing.Point(13, 53)
@@ -67,6 +69,7 @@ Partial Class MemoryExecution
         'Button_GoBack
         '
         Me.Button_GoBack.BackColor = System.Drawing.Color.Black
+        Me.Button_GoBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_GoBack.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button_GoBack.ForeColor = System.Drawing.Color.Red
         Me.Button_GoBack.Location = New System.Drawing.Point(409, 53)

@@ -46,6 +46,7 @@ Partial Class FilePumper
         'Button_Browse
         '
         Me.Button_Browse.BackColor = System.Drawing.Color.Black
+        Me.Button_Browse.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_Browse.Location = New System.Drawing.Point(551, 7)
         Me.Button_Browse.Name = "Button_Browse"
         Me.Button_Browse.Size = New System.Drawing.Size(104, 36)
@@ -103,6 +104,7 @@ Partial Class FilePumper
         'Button_Pump
         '
         Me.Button_Pump.BackColor = System.Drawing.Color.Black
+        Me.Button_Pump.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_Pump.Font = New System.Drawing.Font("Segoe UI Historic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button_Pump.ForeColor = System.Drawing.Color.Lime
         Me.Button_Pump.Location = New System.Drawing.Point(16, 124)
@@ -115,6 +117,7 @@ Partial Class FilePumper
         'Button_GoBack
         '
         Me.Button_GoBack.BackColor = System.Drawing.Color.Black
+        Me.Button_GoBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_GoBack.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button_GoBack.ForeColor = System.Drawing.Color.Red
         Me.Button_GoBack.Location = New System.Drawing.Point(551, 53)

@@ -159,7 +159,15 @@ Public Class WindowsSettings
             CheckBox_EscalatedStatus.Checked = True
         End If
     End Sub
+    Private Sub WindowsSettings_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If e.CloseReason = CloseReason.UserClosing Then
+            e.Cancel = True
 
+            Form1.Show()
+            Me.Hide()
+        End If
+
+    End Sub
     Private Sub WindowsSettings_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Setup = True
 

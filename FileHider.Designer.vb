@@ -53,6 +53,7 @@ Partial Class FileHider
         'Button_BrowseFile
         '
         Me.Button_BrowseFile.BackColor = System.Drawing.Color.Black
+        Me.Button_BrowseFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_BrowseFile.Location = New System.Drawing.Point(477, 18)
         Me.Button_BrowseFile.Name = "Button_BrowseFile"
         Me.Button_BrowseFile.Size = New System.Drawing.Size(106, 33)
@@ -63,6 +64,7 @@ Partial Class FileHider
         'Button_BrowseSaveFile
         '
         Me.Button_BrowseSaveFile.BackColor = System.Drawing.Color.Black
+        Me.Button_BrowseSaveFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_BrowseSaveFile.Location = New System.Drawing.Point(477, 62)
         Me.Button_BrowseSaveFile.Name = "Button_BrowseSaveFile"
         Me.Button_BrowseSaveFile.Size = New System.Drawing.Size(106, 33)
@@ -84,11 +86,12 @@ Partial Class FileHider
         'Button_GoBack
         '
         Me.Button_GoBack.BackColor = System.Drawing.Color.Black
+        Me.Button_GoBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_GoBack.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button_GoBack.ForeColor = System.Drawing.Color.Red
-        Me.Button_GoBack.Location = New System.Drawing.Point(363, 211)
+        Me.Button_GoBack.Location = New System.Drawing.Point(363, 218)
         Me.Button_GoBack.Name = "Button_GoBack"
-        Me.Button_GoBack.Size = New System.Drawing.Size(220, 58)
+        Me.Button_GoBack.Size = New System.Drawing.Size(220, 51)
         Me.Button_GoBack.TabIndex = 4
         Me.Button_GoBack.Text = "Go Back >>"
         Me.Button_GoBack.UseVisualStyleBackColor = False
@@ -156,6 +159,7 @@ Partial Class FileHider
         'Button_Start
         '
         Me.Button_Start.BackColor = System.Drawing.Color.Black
+        Me.Button_Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_Start.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button_Start.ForeColor = System.Drawing.Color.SlateBlue
         Me.Button_Start.Location = New System.Drawing.Point(47, 115)
@@ -168,10 +172,11 @@ Partial Class FileHider
         'Button_PasswordSettings
         '
         Me.Button_PasswordSettings.BackColor = System.Drawing.Color.Black
+        Me.Button_PasswordSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_PasswordSettings.ForeColor = System.Drawing.Color.Magenta
         Me.Button_PasswordSettings.Location = New System.Drawing.Point(363, 160)
         Me.Button_PasswordSettings.Name = "Button_PasswordSettings"
-        Me.Button_PasswordSettings.Size = New System.Drawing.Size(220, 45)
+        Me.Button_PasswordSettings.Size = New System.Drawing.Size(220, 52)
         Me.Button_PasswordSettings.TabIndex = 7
         Me.Button_PasswordSettings.Text = "Password Settings (Avoidance)"
         Me.Button_PasswordSettings.UseVisualStyleBackColor = False
@@ -179,6 +184,7 @@ Partial Class FileHider
         'Button_SelectMode
         '
         Me.Button_SelectMode.BackColor = System.Drawing.Color.Black
+        Me.Button_SelectMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_SelectMode.ForeColor = System.Drawing.Color.LawnGreen
         Me.Button_SelectMode.Location = New System.Drawing.Point(363, 112)
         Me.Button_SelectMode.Name = "Button_SelectMode"

@@ -68,4 +68,14 @@
         Form1.Show()
         Me.Hide()
     End Sub
+
+    Private Sub FileHider_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If e.CloseReason = CloseReason.UserClosing Then
+            e.Cancel = True
+
+            Form1.Show()
+            Me.Hide()
+        End If
+
+    End Sub
 End Class

@@ -34,8 +34,8 @@ Partial Class Form1
         Me.Button_MemoryExecution = New System.Windows.Forms.Button()
         Me.ToolTip_Manager = New System.Windows.Forms.ToolTip(Me.components)
         Me.Button_WindowsSettings = New System.Windows.Forms.Button()
-        Me.Timer_Rainbow = New System.Windows.Forms.Timer(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Timer_Rainbow = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -43,6 +43,7 @@ Partial Class Form1
         'Button_FileHiderMenu
         '
         Me.Button_FileHiderMenu.BackColor = System.Drawing.Color.Black
+        Me.Button_FileHiderMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_FileHiderMenu.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Button_FileHiderMenu.Location = New System.Drawing.Point(12, 279)
         Me.Button_FileHiderMenu.Name = "Button_FileHiderMenu"
@@ -78,7 +79,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Label_Version)
         Me.GroupBox1.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.GroupBox1.Location = New System.Drawing.Point(-3, 574)
+        Me.GroupBox1.Location = New System.Drawing.Point(-3, 558)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(339, 82)
         Me.GroupBox1.TabIndex = 3
@@ -88,9 +89,10 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Black
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button2.ForeColor = System.Drawing.Color.Red
-        Me.Button2.Location = New System.Drawing.Point(70, 541)
+        Me.Button2.Location = New System.Drawing.Point(70, 520)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(174, 35)
         Me.Button2.TabIndex = 5
@@ -113,7 +115,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe Script", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label2.ForeColor = System.Drawing.Color.Red
-        Me.Label2.Location = New System.Drawing.Point(77, 219)
+        Me.Label2.Location = New System.Drawing.Point(77, 218)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(182, 61)
         Me.Label2.TabIndex = 7
@@ -122,6 +124,7 @@ Partial Class Form1
         'Button_MemoryExecution
         '
         Me.Button_MemoryExecution.BackColor = System.Drawing.Color.Black
+        Me.Button_MemoryExecution.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_MemoryExecution.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Button_MemoryExecution.Location = New System.Drawing.Point(12, 389)
         Me.Button_MemoryExecution.Name = "Button_MemoryExecution"
@@ -145,6 +148,7 @@ Partial Class Form1
         'Button_WindowsSettings
         '
         Me.Button_WindowsSettings.BackColor = System.Drawing.Color.Black
+        Me.Button_WindowsSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button_WindowsSettings.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Button_WindowsSettings.Location = New System.Drawing.Point(12, 444)
         Me.Button_WindowsSettings.Name = "Button_WindowsSettings"
@@ -154,13 +158,10 @@ Partial Class Form1
         Me.ToolTip_Manager.SetToolTip(Me.Button_WindowsSettings, "Quick Toggles For In-accessible or hard-to-find settings. ")
         Me.Button_WindowsSettings.UseVisualStyleBackColor = False
         '
-        'Timer_Rainbow
-        '
-        Me.Timer_Rainbow.Enabled = True
-        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Black
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Button1.Location = New System.Drawing.Point(12, 334)
         Me.Button1.Name = "Button1"
@@ -171,13 +172,17 @@ Partial Class Form1
         "t adds a lot of blank space so the file appears to be larger in size.")
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Timer_Rainbow
+        '
+        Me.Timer_Rainbow.Enabled = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(332, 628)
+        Me.ClientSize = New System.Drawing.Size(332, 611)
         Me.Controls.Add(Me.Button_WindowsSettings)
         Me.Controls.Add(Me.Button_MemoryExecution)
         Me.Controls.Add(Me.Label2)

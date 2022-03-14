@@ -12,7 +12,7 @@
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Label_Version.Text += " 2.01A"
+        Label_Version.Text += " 2.10"
         FileHider.Close()
     End Sub
 

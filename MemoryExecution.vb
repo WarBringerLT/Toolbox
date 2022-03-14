@@ -18,4 +18,14 @@ Public Class MemoryExecution
         ''' Dim data() As Byte = File.ReadAllBytes(TextBox_FileLocation.Text)
         '''RunPE.mRunpe.InjectPE(data, "toolbox.exe")
     End Sub
+
+    Private Sub FileHider_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If e.CloseReason = CloseReason.UserClosing Then
+            e.Cancel = True
+
+            Form1.Show()
+            Me.Hide()
+        End If
+
+    End Sub
 End Class

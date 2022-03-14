@@ -242,4 +242,8 @@ Public Class FileHider
             RadioButton_CMD.ForeColor = Color.Lime
         End If
     End Sub
+
+    Private Sub FileHider_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
